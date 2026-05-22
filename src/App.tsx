@@ -16,7 +16,7 @@ import {
   Calendar,
   Download,
 } from "lucide-react";
-import pradap from "./assets/pradap.JPG";
+import pradap from "../src/assets/pradap.jpg";
 const GithubIcon = ({
   size = 20,
   className = "",
