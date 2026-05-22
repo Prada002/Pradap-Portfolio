@@ -16,7 +16,7 @@ import {
   Calendar,
   Download,
 } from "lucide-react";
-
+import pradap from "./assets/pradap.JPG";
 const GithubIcon = ({
   size = 20,
   className = "",
@@ -87,8 +87,7 @@ const SKILLS_DATA = [
 
   { name: "Node.js (Basic)", category: "backend", level: 75 },
   { name: "Express.js", category: "backend", level: 70 },
-  { name: "REST API Integration", category: "backend", level: 95 },
-  { name: "CRUD Operations", category: "backend", level: 85 },
+  { name: "REST API", category: "backend", level: 95 },
   { name: "MongoDB", category: "backend", level: 70 },
 
   { name: "Git & GitHub", category: "tools", level: 90 },
@@ -632,7 +631,7 @@ function App() {
                   <ArrowRight size={18} />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1uhREMdQ4U-sHuPT7MvCCLUCeGfaUvnYa/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1UtwYNb_TfWT_E6biLXOvvNDv2dWIOF7h/view?usp=sharing"
                   download
                   target="_blank"
                   className="btn btn-secondary"
@@ -677,7 +676,7 @@ function App() {
                   }}
                 >
                   <img
-                    src="/pradap.jpg"
+                    src={pradap}
                     alt="Pradap M Portrait"
                     style={{
                       width: "100%",
